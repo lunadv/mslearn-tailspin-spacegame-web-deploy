@@ -130,7 +130,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure App Service Deploy: website'
             inputs:
-              azureSubscription: 'Resource Manager - Tailspin - Space Game'
+              azureSubscription: 'Resource Manager - Tailspin - Space Game - Swap'
               deployToSlotOrASE: 'true'
               resourceGroupName: 'tailspin-space-game-rg'
               slotName: 'swap'
